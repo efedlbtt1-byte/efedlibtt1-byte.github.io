@@ -147,8 +147,8 @@ a {
     display: flex;
     flex: 1;
     align-items: flex-end;
-    min-height: clamp(30rem, calc(100svh - 9.75rem), 50rem);
-    padding: 2rem clamp(1.25rem, 10vw, 10rem) clamp(3rem, 9vh, 6.5rem);
+    min-height: calc(100vh - 70px);
+    padding: 2rem clamp(1.2rem, 10vw, 10rem) 3rem;
 }
 
 .hero-buttons {
